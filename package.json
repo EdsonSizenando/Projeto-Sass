@@ -1,0 +1,23 @@
+{
+  "name": "projeto-sass",
+  "version": "1.0.0",
+  "description": "pré-processador de CSS que adiciona funcionalidades avançadas como variáveis, mixins e aninhamento para tornar o desenvolvimento mais eficiente.",
+  "main": "index.js",
+  "scripts": {
+    "compilar": "sass style.scss style.css", 
+    "observar": "sass --watch style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdsonSizenando/Projeto-Sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdsonSizenando/Projeto-Sass/issues"
+  },
+  "homepage": "https://github.com/EdsonSizenando/Projeto-Sass#readme",
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}
